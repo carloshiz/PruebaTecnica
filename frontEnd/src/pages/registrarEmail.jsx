@@ -31,7 +31,7 @@ function RegistrarEmail() {
         try{
             const response = await registrarEmail(data);
             if (response.status === 200 || response.status === 201) {
-                alert("CORREO REGISTRADO CON EXITO!");
+                alert("CORREO REGISTRADO Y ENVIADO CON EXITO !");
                 navigate('/empleadoAdmin');
             }   
             

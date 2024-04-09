@@ -36,7 +36,7 @@ function RegistrarTelefono() {
             tipo: tipo,
             numero: numero,
             indicativo: indicativo,
-            empleado: empleadoId, 
+            Empleado: empleadoId, 
         };
 
         try {
